@@ -41,6 +41,7 @@ public class RecViewAdapter extends RecyclerView.Adapter<RecViewAdapter.RecViewV
             holder.textView.setText(values[rowIndex][colIndex++]);
         }*/
 
+
         if(colIndex==3){
             colIndex=0;
             rowIndex++;
